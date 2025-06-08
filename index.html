@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Temperature Converter</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div id="celcius">
-    <input type="number" placeholder="Celcius..." >
-  </div>
-  <div id="fahrenheit">
-    <input type="number" placeholder="Fahrenheit...">
-  </div>
-  <div id="kelvin">
-    <input type="number" placeholder="Kelvin...">
 
-  </div>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="temp-field" id="celsius">
+        <input type="number" placeholder="Celsius...">
+        <span class="unit-label">°C</span>
+      </div>
+      <div class="temp-field" id="fahrenheit">
+        <input type="number" placeholder="Fahrenheit...">
+        <span class="unit-label">°F</span>
+      </div>
+      <div class="temp-field" id="kelvin">
+        <input type="number" placeholder="Kelvin...">
+        <span class="unit-label">K</span>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+
 </html>
